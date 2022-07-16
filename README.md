@@ -71,3 +71,11 @@ developing your own process.
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+
+  <!-- created a new toy POST 
+  found this error: "exception": "#<NameError: uninitialized constant ToysController::Toys>"
+  changed Toys to Toy, -->
+
+  <!-- added render json: toy, status: :created to toys_controller update method due to this error [`SyntaxError`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError),-->
+
+<!-- added :destroy to the routes file which enabled DELETE functionality on the ToyCard -->
